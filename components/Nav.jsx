@@ -16,8 +16,8 @@ const Nav = () => {
             </li>
         </ul>
         
-        <svg class="w-6 h-6 text-gray-800 dark:text-white mr-8 mt-2 sm:hidden flex" data-drawer-target="drawer-example" data-drawer-show="drawer-example" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-          <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+        <svg className="w-6 h-6 text-gray-800 dark:text-white mr-8 mt-2 sm:hidden flex" data-drawer-target="drawer-example" data-drawer-show="drawer-example" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="M5 7h14M5 12h14M5 17h14"/>
         </svg>
 
         
