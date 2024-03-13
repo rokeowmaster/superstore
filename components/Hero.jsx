@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="max-w-md">
                 <h1 className="mb-5 text-5xl font-bold">Super<span className='text-orange-500'>Store</span></h1>
                 <p className="mb-5">Your Destination for quality furniture</p>
-                <button className="btn btn-primary">Explore</button>
+                <a href='#explore'><button className="btn btn-primary">Explore</button></a>
                 </div>
             </div>
     </div>

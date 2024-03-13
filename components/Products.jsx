@@ -5,10 +5,13 @@ import { urlForImage } from "@/sanity/sanity.client";
 const Products = (products) => {
     // console.log(products)
   const handleBookmark = (e) => {
-    console.log(e)
+    // console.log(e)
   }
   return (
+    <>
+    <h4 className='text-center mt-4' id='explore'>Our Products</h4>
     <main className="m-8 flex flex-wrap">
+            
             {products.products && products.products.map(product=>(
             <div key={product._id} className="w-50 mb-4 mx-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
@@ -63,6 +66,7 @@ const Products = (products) => {
 
 
       </main>
+    </>
   )
 }
 
