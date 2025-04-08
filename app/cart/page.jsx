@@ -1,7 +1,7 @@
 "use client";
 
 import { useCart } from "@/context/cartContext";
-import { Banner } from "@/components";
+// import { Banner } from "@/components";
 import { useState, useEffect } from "react";
 
 const Cart = () => {
@@ -53,7 +53,7 @@ const Cart = () => {
 
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
       <div className="m-4 p-6 container mx-auto bg-gray-900 shadow-lg rounded-lg border border-gray-700 text-gray-300">
         <h2 className="text-2xl font-semibold mb-6 text-center text-gray-100">
           Shopping Cart
