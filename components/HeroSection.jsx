@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -20,9 +21,11 @@ export default function HeroSection() {
           <p className="text-lg text-gray-300">
             Discover the trendiest items, handpicked just for you.
           </p>
+          <Link href="/products">
           <button className="px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-xl shadow-lg transition">
             Shop Now
           </button>
+          </Link>
         </motion.div>
 
         {/* Right Image Section */}

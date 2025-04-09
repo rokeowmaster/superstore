@@ -29,7 +29,7 @@ const ProductList = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen text-gray-900">
-    <Navbar />
+    {/* <Navbar /> */}
       <div className="container mx-auto p-6">
         <h2 className="text-3xl font-semibold text-center mb-8">Our Products</h2>
         {products.length > 0 ? (
